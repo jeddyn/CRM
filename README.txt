@@ -12,7 +12,7 @@ ALTER USER 'yourMySQLClientName'@'localhost' IDENTIFIED WITH mysql_native_passwo
 
 DB script for customer-tracker: 
 
-CREATE DATABASE  IF NOT EXISTS `web_customer_tracker` /*!40100 DEFAULT CHARACTER SET latin1 !!!*/;
+CREATE DATABASE  IF NOT EXISTS `web_customer_tracker` /*!40100 DEFAULT CHARACTER SET latin1 !!! change to another one if you want to use Polish characters*/;
 USE `web_customer_tracker`;
 -- MySQL dump 10.13  Distrib 5.6.13, for osx10.6 (i386)
 --
