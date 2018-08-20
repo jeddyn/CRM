@@ -1,10 +1,10 @@
-package pl.zar.app.dao;
+package pl.zar.app.service;
 
 import java.util.List;
 
 import pl.zar.app.entity.Customer;
 
-public interface CustomerDAO {
+public interface CustomerService {
 	
 	public List<Customer> getCustomers();
 
