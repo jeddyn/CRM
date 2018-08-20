@@ -32,8 +32,8 @@
           destroy-method="close">
         <property name="driverClass" value="com.mysql.jdbc.Driver" />
         <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/web_customer_tracker?useSSL=false&amp;serverTimezone=UTC" />
-        <property name="user" value="jedyn" />
-        <property name="password" value="jedyn" /> 
+        <property name="user" value="yourMySQLName" />
+        <property name="password" value="yourMySQLPassword" /> 
 
         <!-- connection pool properties for C3P0 -->
         <property name="minPoolSize" value="5" />
